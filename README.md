@@ -2,7 +2,7 @@
 Vehicle Keys System For QB-Core edit to make it work if player in driver seat or not and if player closest to vehicle
 
 need https://github.com/NathanERP/qb-lock
-
+video https://www.youtube.com/watch?v=DSPiCV7oYnc
 # License
 
     QBCore Framework

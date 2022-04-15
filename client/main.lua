@@ -204,7 +204,8 @@ local function LockpickDoor(isAdvanced)
                     QBCore.Functions.Notify('you suck at this', 'error')
                     ClearPedTasks(ped)
                 end
-                elseif IsPedInAnyVehicle(ped)  then
+                
+                elseif IsPedInAnyVehicle(ped) and GetPedInVehicleSeat(GetVehiclePedIsIn(PlayerPedId()), -1) == PlayerPedId() then
                         if not HasVehicleKey then
                             local time = math.random(9,10)
                             local circles = math.random(2,10)

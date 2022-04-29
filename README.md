@@ -4,6 +4,10 @@ Vehicle Keys System For QB-Core
 
 https://www.youtube.com/watch?v=DSPiCV7oYnc&t=2s
 
+*
+add this
+https://github.com/Nathan-FiveM/qb-lock
+
 # License
 
     QBCore Framework

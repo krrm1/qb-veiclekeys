@@ -209,7 +209,7 @@ local function LockpickDoor(isAdvanced)
                         if not HasVehicleKey then
                             local time = math.random(9,10)
                             local circles = math.random(2,10)
-                            local success = exports['qb-lock']:StartLockPickCircle(circles, time, success)
+                            local success = exports['arabcodingteam-lock']:StartLockPickCircle(circles, time, success)
                             local ped = PlayerPedId()
                             local vehicle = GetVehiclePedIsIn(ped, true)
                             IsHotwiring = true

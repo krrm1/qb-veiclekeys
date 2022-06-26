@@ -194,7 +194,7 @@ local function LockpickDoor(isAdvanced)
                 TaskPlayAnim(GetPlayerPed(-1), "veh@break_in@0h@p_m_one@", "low_force_entry_ds" ,3.0, 3.0, -1, 16, 0, false, false, false)
                 local time = math.random(7,10)
                 local circles = math.random(2,4)
-                local success = exports['qb-lock']:StartLockPickCircle(circles, time, success)
+                local success = exports['arabcodingteam-lock']:StartLockPickCircle(circles, time, success)
                 usingAdvanced = isAdvanced
 
                 if success then

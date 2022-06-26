@@ -1,6 +1,6 @@
 -- Variables
 
-local QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['arabcodingteam-core']:GetCoreObject()
 local VehicleList = {}
 
 -- Functions

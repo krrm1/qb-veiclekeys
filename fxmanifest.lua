@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'qb-VehicleKeys fixed by arabcodingteam'
+description 'qb-VehicleKeys fixed by krrm1'
 version '1.0.0'
 
 shared_script 'config.lua'
